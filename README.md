@@ -19,6 +19,7 @@ Modified the index.tsx to remove the second "You are Here" marker
 Now the map will only populate markers that it receives from the dynamic value list in the flow presentation component
 
 ## Install nodeJS on ubuntu 18.04
+```
 sudo su
 curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.35.3/install.sh -o install_nvm.sh
 bash install_nvm.sh
@@ -27,14 +28,16 @@ nvm install v14.17.0
 nvm use v14.17.0
 npm config set user 0
 npm config set unsafe-perm true
+```
 
 ## Clone the modified repo
+```
 git clone https://github.com/thecloudgarage/ui-component-google-map.git
 cd ui-component-google-map
 npm install
 npm run build
 cd build
-
+```
 Observe the two files generated for the custom component
 
 ## Make custom component files accessible to flow player
