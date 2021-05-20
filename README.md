@@ -1,4 +1,4 @@
-## Google maps custom component
+## Boomi Flow Google maps custom component
 The objective is create a custom UI component for Boomi Flow that will let you visualize lat/long pairs on Google maps.
 The custom component is based on standard React framework and has to be built and leveraged in the flow
 The notes below describe an end-to-end method of doing so.
