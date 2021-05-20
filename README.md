@@ -12,14 +12,12 @@ The notes below describe an end-to-end method of doing so.
 ## Original repository
 https://github.com/boomiflow-community/ui-component-google-map.git
 
-## End result
+## End result of the modified fork (this one)
 
 ![image](https://user-images.githubusercontent.com/39495790/118932567-cef61000-b965-11eb-8234-5d8c3be52acd.png)
 
 ## Modifications performed via this fork
-Original code has a static lat/long defined "You are Here" marker
-Modified the index.tsx to remove the second "You are Here" marker
-Now the map will only populate markers that it receives from the dynamic value list in the flow presentation component
+The orignal repository has an index.tsx that adds a static lat/long defined "You are Here" marker. In this fork, we have modified the index.tsx to remove the second "You are Here" marker. Now the map will only populate markers that it receives from the dynamic value list in the flow presentation component
 
 ## Install nodeJS on ubuntu 18.04
 ```
