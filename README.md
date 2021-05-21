@@ -54,8 +54,8 @@ Alternatively if moved to Boomi Flow assets, then the files are public by defaul
 Copy the publicly accesible URLs
 
 > If you want to use precompiled js files without building and uploading them to your assets/s3. then these are available via
-> https://boomi-site.s3.amazonaws.com/sample-custom-component.js
-> https://boomi-site.s3.amazonaws.com/sample-custom-component.css
+> * https://boomi-site.s3.amazonaws.com/sample-custom-component.js
+> * https://boomi-site.s3.amazonaws.com/sample-custom-component.css
 
 ## Enable javascript API in google maps
 https://console.cloud.google.com/
