@@ -7,7 +7,7 @@ class googleMaps extends React.Component<any, any> {
     constructor(props: any) {
         super(props);
         this.state = {
-            zoom: 2,
+            zoom: 4,
             maptype: 'roadmap', // terrain // roadmap  //hybrid
             heading: 90,
             tilt: 75,
@@ -15,8 +15,8 @@ class googleMaps extends React.Component<any, any> {
             place_id: '',
             place_location: '',
             rotateControl: true,
-            lat: 1.2966,
-            long: 103.7764,
+            lat: 12.9716,
+            long: 77.5946,
             markers: [],
         };
     }
