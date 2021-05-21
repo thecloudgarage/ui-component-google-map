@@ -78,7 +78,7 @@ Scroll down further  to the lines as seen below and insert the new custom
 INSERT>>>    customResources: ["https://boomi-site.s3.amazonaws.com/custom-component.js", "https://boomi-site.s3.amazonaws.com/custom-component.css"],
             requires: ['core', 'bootstrap3'],
             initialize: function () {
-
+```
 Save the player
 
 ## Time to leverage the cutom components
