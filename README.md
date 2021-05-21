@@ -12,7 +12,7 @@ The notes below describe an end-to-end method of doing so.
 ## Original repository
 https://github.com/boomiflow-community/ui-component-google-map.git
 
-## End result of the modified fork (this one)
+## End result: After implementing this version of the fork. Your flow output page will look like this.
 
 ![image](https://user-images.githubusercontent.com/39495790/119082099-feb31f80-ba1a-11eb-8fe0-e56c382d06ae.png)
 
