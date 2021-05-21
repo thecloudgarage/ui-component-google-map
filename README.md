@@ -82,30 +82,29 @@ INSERT>>>    customResources: ["https://boomi-site.s3.amazonaws.com/custom-compo
 Save the player
 
 ## Time to leverage the cutom components
-Create a new Type named google-map with 5 properties (string-type)
-lat (string), long (string), name (string), country (string), place (string)
-Create a new list value based on the type created above. Edit the default object data and insert valid lat/long values along with other ones
-Create a new flow
-Drag a page element
-On the page, drag a presentation element, name it as google-map and insert some dummy text to save the component
-Once saved, edit the metadata (right hand side) and scroll down to the presentation component created above (google-map)
-Edit the component type from "componentType": "presentation" to "componentType": "google-map". Save the metadata and save the page
-"google-map" is the name with which our custom-component has been registered (via custom-component.js)
-Re-edit the presentation component and now you will find new sections asking for data type/source, etc..
-Select type as "google-map" (created above)
-Select source of data > get the data from list value > select the google-map list (created above)
-Scroll down to the Data Presention section and add colummns. Ensure the order of the column addition is (0)lat, (1)long, (2)name, (3)country, (4)place
-Save the presentation component
-Save the page
-Run the flow with custom player created above
+* Create a new Type named google-map with 5 properties (string-type)
+** lat (string), long (string), name (string), country (string), place (string)
+* Create a new list value based on the type created above. Edit the default object data and insert valid lat/long values along with other ones
+* Create a new flow
+* Drag a page element
+* On the page, drag a presentation element, name it as google-map and insert some dummy text to save the component
+* Once saved, edit the metadata (right hand side) and scroll down to the presentation component created above (google-map)
+* Edit the component type from "componentType": "presentation" to "componentType": "google-map". Save the metadata and save the page
+* "google-map" is the name with which our custom-component has been registered (via custom-component.js)
+* Re-edit the presentation component and now you will find new sections asking for data type/source, etc..
+* Select type as "google-map" (created above)
+* Select source of data > get the data from list value > select the google-map list (created above)
+* Scroll down to the Data Presention section and add colummns. Ensure the order of the column addition is (0)lat, (1)long, (2)name, (3)country, (4)place
+* Save the presentation component
+* Save the page
+* Run the flow with custom player created above
 
 ENJOY!!!
 To add more markers edit the value and add more rows of default object data
 
 ## To integrated with database saved values
-The values can be created from a database object type if it adheres to the 5 properties
-So instead of manually creating default object data, it can be a dynamically received sdt of values
-
+* The values can be created from a database object type if it adheres to the 5 properties
+* So instead of manually creating default object data, it can be a dynamically received sdt of values
 
 # Original NOTES from the forked repo
 
