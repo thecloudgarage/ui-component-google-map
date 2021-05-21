@@ -14,10 +14,12 @@ https://github.com/boomiflow-community/ui-component-google-map.git
 
 ## End result of the modified fork (this one)
 
-![image](https://user-images.githubusercontent.com/39495790/118932567-cef61000-b965-11eb-8234-5d8c3be52acd.png)
+![image](https://user-images.githubusercontent.com/39495790/119082099-feb31f80-ba1a-11eb-8fe0-e56c382d06ae.png)
 
 ## Modifications performed via this fork
 The orignal repository has an index.tsx that adds a static lat/long defined "You are Here" marker. In this fork, we have modified the index.tsx to remove the second "You are Here" marker. Now the map will only populate markers that it receives from the dynamic value list in the flow presentation component
+
+> If you want to skip the creation and build of the google-maps custom component, then go straight to section **Make custom component files accessible to flow player**
 
 ## Install nodeJS on ubuntu 18.04
 ```
