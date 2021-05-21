@@ -71,7 +71,7 @@ Scroll down to where the head section begins and insert the below. Replace YOUR_
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY" async defer></script>
 
 Scroll down further  to the lines as seen below and insert the new custom
-
+```
     <script>
         var manywho = {
             cdnUrl: 'https://assets.manywho.com',
