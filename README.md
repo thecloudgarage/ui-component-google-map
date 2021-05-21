@@ -44,12 +44,18 @@ cd build
 Observe the two files generated for the custom component
 
 ## Make custom component files accessible to flow player
-Copy the .js and .css file either to s3 or the assets of Boomi Flow
-If moved to s3, ensure they are public
+* Copy the .js and .css file either to s3 or the assets of Boomi Flow
+* If moved to s3, ensure they are public
+```
 aws s3 cp custom-component.js s3://<bucket-name>/ --acl public-read
 aws s3 cp custom-component.css s3://<bucket-name>/ --acl public-read
+```
 Alternatively if moved to Boomi Flow assets, then the files are public by default
 Copy the publicly accesible URLs
+
+> If you want to use precompiled js files without building and uploading them to your assets/s3. then these are available via
+> https://boomi-site.s3.amazonaws.com/sample-custom-component.js
+> https://boomi-site.s3.amazonaws.com/sample-custom-component.css
 
 ## Enable javascript API in google maps
 https://console.cloud.google.com/
